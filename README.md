@@ -8,10 +8,10 @@
 ---
 
 ### 2. Employee Management (Consumer + T)
-- [ ] Create a generic method `forEachApply(List<T> list, Consumer<T> action)` that runs `action.accept()` on each element in the list.
+- [x] Create a generic method `forEachApply(List<T> list, Consumer<T> action)` that runs `action.accept()` on each element in the list.
 - Test with `Employee` objects where you:
-  1. [ ] i. Increase salaries by 10%.
-  2. [ ] ii. Print information about all employees.
+  1. [x] i. Increase salaries by 10%.
+  2. [x] ii. Print information about all employees.
 
 ---
 
