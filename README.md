@@ -1,3 +1,8 @@
+### What did we learn?
+* Predicates are conditions!
+* Consumers are actions!
+* Comparators compare!
+
 ### 1. Product Filter (Predicate + T)
 - [x] Create a generic method `filterList(List<T> list, Predicate<T> condition)` that returns a new list with only the elements that match the condition.
 - Test the method on a list of `Product` (as before) to filter:
@@ -16,11 +21,11 @@
 ---
 
 ### 3. Library (Comparator + T)
-- [ ] Create a generic method `sortList(List<T> list, Comparator<T> comparator)` that sorts a list.
+- [x] Create a generic method `sortList(List<T> list, Comparator<T> comparator)` that sorts a list.
 - Test with `Book` objects:
-  1. [ ] i. Sort by year.
-  2. [ ] ii. Sort by author.
-  3. [ ] iii. Sort by year and then title. 
+  1. [x] i. Sort by year.
+  2. [x] ii. Sort by author.
+  3. [x] iii. Sort by year and then title. 
 - [ ] Extra: Create a method `maxBy(List<T>, Comparator<T>)` that returns the largest book according to a certain comparator.
 
 ---
