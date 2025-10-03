@@ -1,4 +1,4 @@
-### What did we learn?
+## What did we learn?
 * Predicates are conditions!
 * Consumers are actions!
 * Comparators compare!
@@ -57,7 +57,7 @@ public static <T> void processItems(
   2. [x] ii. Sort with `Comparator`.
   3. [x] iii. Run `Consumer` on each element.
 - [x] Test with a list `Order` (`id`, `customerName`, `amount`, `completed`).
-- [ ] Filter out only the incomplete orders.
+- [x] Filter out only the incomplete orders.
 - [x] Sort them by amount (largest first).
 - [x] Print all with `Consumer`.
 
