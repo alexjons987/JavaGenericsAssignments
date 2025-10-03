@@ -1,4 +1,4 @@
-package assignment.five;
+package assignment.task5;
 
 import java.util.Comparator;
 import java.util.List;

@@ -1,4 +1,4 @@
-package assignment.one;
+package assignment.task1;
 
 import exceptions.InvalidAmountException;
 import exceptions.OutOfStockException;

@@ -1,4 +1,4 @@
-package assignment.two;
+package assignment.task2;
 
 import java.util.List;
 import java.util.function.Consumer;

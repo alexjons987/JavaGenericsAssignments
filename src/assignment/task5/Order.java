@@ -1,4 +1,4 @@
-package assignment.five;
+package assignment.task5;
 
 public class Order {
     int id;
