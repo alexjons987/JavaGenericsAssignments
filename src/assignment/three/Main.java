@@ -17,7 +17,7 @@ public class Main {
 
         // 1. Sort by year.
         System.out.println("Books by year:");
-        List<Book> booksByYear = sortList(books, Comparator.comparing(Book::getYear));
+        List<Book> booksByYear = sortList(books, Comparator.comparing(Book::getYear)); // We could add .reversed()!
         booksByYear.forEach(System.out::println);
 
         // 2. Sort by authors.

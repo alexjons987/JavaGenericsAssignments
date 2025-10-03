@@ -31,11 +31,11 @@
 ---
 
 ### 4. Student Filter and Sort (Predicate + Comparator + T, R)
-- [ ] Create a generic method `mapList(List<T> list, Function<T, R> mapper)` that converts a list of type T to a list of type R.
-- [ ] Make a list of `Student`.
-- [ ] Filter (with Predicate) all those with grades > 70.
-- [ ] Sort with Comparator by grade (highest first).
-- [ ] Use `mapList` to convert the list of `Student` to a list of `String` where each element is `"Name: [name], Grade: [grade]"`.
+- [x] Make a list of `Student`.
+- [x] Create a generic method `mapList(List<T> list, Function<T, R> mapper)` that converts a list of type T to a list of type R.
+- [x] Filter (with Predicate) all those with grades > 70.
+- [x] Sort with Comparator by grade (highest first).
+- [x] Use `mapList` to convert the list of `Student` to a list of `String` where each element is `"Name: [name], Grade: [grade]"`.
 
 ---
 

@@ -13,7 +13,7 @@ public class Main {
                 new Product("Generic Product E", 99, 49)
         );
 
-        // 1.
+        // 1. Products under 100 kr.
         List<Product> productsUnderOneHundred = filterList(productList, (product -> product.getCost() < 100));
 
         System.out.println("The following products cost less than 100kr:");
@@ -21,7 +21,7 @@ public class Main {
             System.out.printf("- %s %d:-%n", p.getName(), p.getCost());
         }
 
-        // 2.
+        // 2. Products that are in stock.
         List<Product> productsInStock = filterList(productList, (product -> product.getQuantity() > 1));
 
         System.out.println("The following products are in stock:");
@@ -29,7 +29,7 @@ public class Main {
             System.out.printf("- %s, %d in stock%n", p.getName(), p.getQuantity());
         }
 
-        // 3.
+        // 3. Combination with `.and()`.
         Predicate<Product> outOfStock = (product -> product.getQuantity() < 1);
         List<Product> productsOutOfStockAndUnderFifty = filterList(productList, outOfStock.and(product -> product.getCost() < 50));
 
