@@ -2,6 +2,7 @@
 * Predicates are conditions!
 * Consumers are actions!
 * Comparators compare!
+* Map transforms one thing to another!
 
 ### 1. Product Filter (Predicate + T)
 - [x] Create a generic method `filterList(List<T> list, Predicate<T> condition)` that returns a new list with only the elements that match the condition.
@@ -40,22 +41,24 @@
 ---
 
 ### 5. Order Management (Predicate + Comparator + Consumer + T)
-- [ ] Create a generic method:
+- [x] Create a generic method:
 ```java
 public static <T> void processItems(
         List<T> list,
         Predicate<T> filter,
         Comparator<T> sorter,
         Consumer<T> action
-);
+) {
+    // Code
+}
 ```
 - The method should:
-  1. [ ] i. Filter the list with `Predicate`.
-  2. [ ] ii. Sort with `Comparator`.
-  3. [ ] iii. Run `Consumer` on each element.
-- [ ] Test with a list `Order` (`id`, `customerName`, `amount`, `completed`).
+  1. [x] i. Filter the list with `Predicate`.
+  2. [x] ii. Sort with `Comparator`.
+  3. [x] iii. Run `Consumer` on each element.
+- [x] Test with a list `Order` (`id`, `customerName`, `amount`, `completed`).
 - [ ] Filter out only the incomplete orders.
-- [ ] Sort them by amount (largest first).
-- [ ] Print all with `Consumer`.
+- [x] Sort them by amount (largest first).
+- [x] Print all with `Consumer`.
 
 ---
