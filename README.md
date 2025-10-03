@@ -3,7 +3,7 @@
 * Consumers are actions!
 * Comparators compare!
 * Map transforms one thing to another!
-
+## Assignments
 ### 1. Product Filter (Predicate + T)
 - [x] Create a generic method `filterList(List<T> list, Predicate<T> condition)` that returns a new list with only the elements that match the condition.
 - Test the method on a list of `Product` (as before) to filter:
@@ -60,5 +60,3 @@ public static <T> void processItems(
 - [x] Filter out only the incomplete orders.
 - [x] Sort them by amount (largest first).
 - [x] Print all with `Consumer`.
-
----
